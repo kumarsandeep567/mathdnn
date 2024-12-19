@@ -6,6 +6,22 @@ MathDNN is an experimental project exploring the capabilities and limitations of
 
 While addition is a simple mathematical operation, teaching neural networks to perform accurate addition on numbers significantly larger than those in their training set presents interesting challenges. This project systematically explores these challenges and implements various solutions to improve the model's performance.
 
+## Setup Instructions
+
+- Clone the repository and navigate to it:
+   ```bash
+   git clone https://github.com/kumarsandeep567/mathdnn.git
+
+   cd mathdnn
+   ```
+
+- Please install the dependencies by running 
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+- **Installing TensorFlow** : To ensure you install the correct version of TensorFlow, please refer to TensorFlow's official installation guide [here](https://www.tensorflow.org/install/pip)
+
 ## Key Features
 
 - Implementation of a basic DNN for numerical addition
@@ -43,14 +59,6 @@ While addition is a simple mathematical operation, teaching neural networks to p
 - Regular models showed accuracy around 12% for out-of-range numbers
 - Enhanced models achieved percentage errors below 0.0002%
 - Logarithmic transformation showed limited effectiveness for addition tasks
-
-## Requirements
-
-- Please install the dependencies by running 
-    ```bash
-    pip install -r requirements.txt
-    ```
-- **Installing TensorFlow** : To ensure you install the correct version of TensorFlow, please refer to TensorFlow's official installation guide [here](https://www.tensorflow.org/install/pip)
 
 ## Key Findings
 
